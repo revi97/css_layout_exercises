@@ -1,1 +1,139 @@
+<<<<<<< HEAD
+body{
+    background-image: url(../images/outerspace_landscape.jpeg);    
+    background-size: cover;
+}
+nav{
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 2px;
+  position: fixed;
+  width: 100%;
+  background-color: grey;
+  height: 60px;
+}
+.logo{
+    
+  width: 45px;
+  position: absolute;
+  left: 60px;
+  border-radius: 90%;
+  border: solid 2px black;
+}
+nav ul{
+    display: inline-block;    
+    list-style-type: none;   
+    
+}
+nav li {
+    display: inline-block;
+    color: white;
+} 
+nav li::after{
+    content: "|";
+    margin: 5px;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+.images-cd{
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cat,
+.dog{
+    position: absolute;
+    width: 200px;
+}
+.cat {
+    top: -90px;
+    left: -90px;
+}
+  
+.dog {
+    bottom: -120px;
+    right: -60px;
+}
+main {
+    padding-top: 90px;
+    min-width: 1000px;
+  }
+  
 
+
+=======
+body{
+    background-image: url(../images/outerspace_landscape.jpeg);    
+    background-size: cover;
+}
+nav{
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 2px;
+  position: fixed;
+  width: 100%;
+  background-color: grey;
+  height: 60px;
+}
+.logo{
+    
+  width: 45px;
+  position: absolute;
+  left: 60px;
+  border-radius: 90%;
+  border: solid 2px black;
+}
+nav ul{
+    display: inline-block;    
+    list-style-type: none;   
+    
+}
+nav li {
+    display: inline-block;
+    color: white;
+} 
+nav li::after{
+    content: "|";
+    margin: 5px;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+.images-cd{
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cat,
+.dog{
+    position: absolute;
+    width: 200px;
+}
+.cat {
+    top: -90px;
+    left: -90px;
+}
+  
+.dog {
+    bottom: -120px;
+    right: -60px;
+}
+main {
+    padding-top: 90px;
+    min-width: 1000px;
+  }
+  
+
+
+>>>>>>> 27569f0faf32f7670e767a7a33f86b833f24807d
