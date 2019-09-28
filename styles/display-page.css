@@ -1,0 +1,42 @@
+.boxes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 800px;
+    height: 500px;
+    font-size: 0;
+    
+}
+.box1{
+    height: 200px;  
+    width: 50%;
+    display: inline-block;
+    border: solid 1px black;
+}
+.box2{
+    height: 300px; 
+    width: 33.33%;
+    display: inline-block; 
+    border: solid 1px black;  
+}
+.subbox11{
+    
+    background-color: green;
+}
+.subbox12{
+    
+    background-color: blue;
+}
+.subbox21{
+     
+    background-color: grey;   
+}
+.subbox22{
+     
+    background-color: black;   
+}
+.subbox23{
+     
+    background-color: yellow;   
+}
